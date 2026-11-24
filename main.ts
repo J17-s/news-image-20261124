@@ -22,4 +22,3 @@ const targetSize = statSync(target).size;
 if (sourceSize !== targetSize) {
   throw new Error(`Copy verification failed: source is ${sourceSize} bytes but output is ${targetSize} bytes`);
 }
-
